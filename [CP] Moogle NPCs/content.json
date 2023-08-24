@@ -1,0 +1,42 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Kukurom": "adult/neutral/neutral/neutral/undefined/secret//Other/spring 3//Town 26 60/Kukurom"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/SpeechBubbles",
+            "Entries": {
+                "Town_Kukurom_Greeting1": "Kupo1",
+                "Town_Kukurom_Greeting2": "Kupo2",
+                "Town_Kukurom_Greeting3": "Kupo3",
+                "Town_Kukurom_Greeting4": "Kupo4"
+            }
+        },        
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Kukurom",
+            "FromFile": "assets/Schedule/Schedule.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Kukurom",
+            "FromFile": "assets/Dialogue/Dialogue.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Kukurom",
+            "FromFile": "assets/Image/Kukurom.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Kukurom",
+            "FromFile": "assets/Image/Sprite.png"
+        }
+    ]
+}

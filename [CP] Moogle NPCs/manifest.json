@@ -1,0 +1,11 @@
+{
+    "Name": "Kukurom NPC Mod",
+    "Author": "HiroTeam",
+    "Description": "Human-loving, fast-talking, street-smart, SLAM-dancing... Moogle. New NPCs based on Final Fantasy VI moogles.",
+    "Version": "1.0.0",
+    "UniqueID": "HiroTeam.Kukurom",
+    "UpdateKeys": ["Nexus:1234"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
