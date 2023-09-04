@@ -5,38 +5,147 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Kukurom": "adult/neutral/neutral/neutral/undefined/secret//Other/spring 3//Town 26 60/Kukurom"
+                "Kuporco": "adult/neutral/neutral/neutral/undefined/secret//Other/spring 3//Mine 14 4/Kuporco"
             }
         },
         {
             "Action": "EditData",
-            "Target": "Strings/SpeechBubbles",
+            "Target": "Data/NPCDispositions",
             "Entries": {
-                "Town_Kukurom_Greeting1": "Kupo1",
-                "Town_Kukurom_Greeting2": "Kupo2",
-                "Town_Kukurom_Greeting3": "Kupo3",
-                "Town_Kukurom_Greeting4": "Kupo4"
+                "Kutoro": "adult/neutral/neutral/neutral/undefined/secret//Other/spring 19//Mine 18 4/Kutoro"
             }
-        },        
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Kuponyo": "adult/neutral/neutral/neutral/undefined/secret//Other/fall 19//Mine 24 4/Kuponyo"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Kuhaku": "adult/neutral/neutral/neutral/undefined/secret//Other/fall 23//Mine 25 10/Kuhaku"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Kusen": "adult/neutral/neutral/neutral/undefined/secret//Other/winter 9//Mine 21 10/Kusen"
+            }
+        },      
         {
             "Action": "Load",
-            "Target": "Characters/schedules/Kukurom",
-            "FromFile": "assets/Schedule/Schedule.json"
+            "Target": "Characters/schedules/Kuporco",
+            "FromFile": "assets/Schedule/ScheduleKuporco.json"
         },
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/Kukurom",
-            "FromFile": "assets/Dialogue/Dialogue.json"
+            "Target": "Characters/Dialogue/Kuporco",
+            "FromFile": "assets/Dialogue/DialogueKuporco.json"
         },
         {
             "Action": "Load",
-            "Target": "Portraits/Kukurom",
-            "FromFile": "assets/Image/Kukurom.png"
+            "Target": "Characters/schedules/Kutoro",
+            "FromFile": "assets/Schedule/ScheduleKutoro.json"
         },
         {
             "Action": "Load",
-            "Target": "Characters/Kukurom",
+            "Target": "Characters/Dialogue/Kutoro",
+            "FromFile": "assets/Dialogue/DialogueKutoro.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Kuponyo",
+            "FromFile": "assets/Schedule/ScheduleKuponyo.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Kuponyo",
+            "FromFile": "assets/Dialogue/DialogueKuponyo.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Kuhaku",
+            "FromFile": "assets/Schedule/ScheduleKuhaku.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Kuhaku",
+            "FromFile": "assets/Dialogue/DialogueKuhaku.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Kusen",
+            "FromFile": "assets/Schedule/ScheduleKusen.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Kusen",
+            "FromFile": "assets/Dialogue/DialogueKusen.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Kuporco",
+            "FromFile": "assets/Image/Moogle.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Kuporco",
             "FromFile": "assets/Image/Sprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Kutoro",
+            "FromFile": "assets/Image/Moogle.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Kutoro",
+            "FromFile": "assets/Image/Sprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Kuponyo",
+            "FromFile": "assets/Image/Moogle.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Kuponyo",
+            "FromFile": "assets/Image/Sprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Kuhaku",
+            "FromFile": "assets/Image/Moogle.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Kuhaku",
+            "FromFile": "assets/Image/Sprite.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Kusen",
+            "FromFile": "assets/Image/Moogle.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Kusen",
+            "FromFile": "assets/Image/Sprite.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Kuporco": "Kupo! Thank you, @! This is my favorite!/430 432 348 287 441 286 288/Kupo! Thank you!/224 346/I don't like this. Kupo./99/This is terrible.//Oh, thank you, kupo.//",
+                "Kutoro": "Kupo! Thank you, @! This is my favorite!/99/Kupo! Thank you!/99/I don't like this. Kupo./99/This is terrible.//Oh, thank you, kupo.//",
+                "Kuponyo": "Kupo! Thank you, @! This is my favorite!/99/Kupo! Thank you!/99/I don't like this. Kupo./99/This is terrible.//Oh, thank you, kupo.//",
+                "Kuhaku": "Kupo! Thank you, @! This is my favorite!/99/Kupo! Thank you!/99/I don't like this. Kupo./99/This is terrible.//Oh, thank you, kupo.//",
+                "Kusen": "Kupo! Thank you, @! This is my favorite!/99/Kupo! Thank you!/99/I don't like this. Kupo./99/This is terrible.//Oh, thank you, kupo.//"
+            }
         }
     ]
 }
